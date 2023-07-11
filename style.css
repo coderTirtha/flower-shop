@@ -149,3 +149,48 @@ header {
     font-size: 18px;
     font-weight: 600;
 }
+
+.ad-banner {
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+    align-items: center;
+    padding: 50px 120px;
+}
+
+.ad-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 590px;
+}
+
+.ad-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.ad-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.ad-title span {
+    color: #E55473;
+}
+
+.ad-banner .ad-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-banner .ad-image img {
+    width: 250px;
+}
