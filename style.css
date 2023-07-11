@@ -241,4 +241,36 @@ header {
 
 footer {
     background: #111010;
+    margin-bottom: 0;
+    padding: 80px 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-title span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.footer-content .copyright-text {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
