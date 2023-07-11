@@ -167,12 +167,11 @@ header {
     width: 590px;
 }
 
-.ad-title {
+.advertise-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
-    display: block !important;
 }
 
 .ad-description {
