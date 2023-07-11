@@ -41,6 +41,7 @@ section {
     font-weight: 400;
     max-width: 580px;
     margin: 25px auto;
+    margin-bottom: 45px;
 }
 
 header {
@@ -84,12 +85,15 @@ header {
     width: 410px;
 }
 
+.featured-flowers {
+    margin: 10px 120px;
+}
+
 .featured-flowers-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     text-align: center;
-    margin: 10px 120px;
 }
 
 .featured-flowers-container .featured-flower .featured-flower-image {
@@ -127,4 +131,21 @@ header {
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 25px;
+}
+
+.featured-section {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px 0;
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured-section .featured-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
 }
