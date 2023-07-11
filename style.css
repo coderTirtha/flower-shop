@@ -208,11 +208,44 @@ header {
     max-width: 250px;
 }
 
+.shopping-item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px 120px;
+}
+
+.shopping-item {
+    box-shadow: -2px 2px 10px #00000034;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.shopping-item img {
+    width: 250px;
+}
+
+.item-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.item-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    text-align: left;
+    margin: 20px 0;
+}
+
 .contact {
     background: url('./flower-asset/rectangle9.png');
     background-repeat: no-repeat;
     margin: 0 120px 120px 120px;
     border-radius: 8px;
+    margin: 100px 120px;
 }
 
 .contact-title {
@@ -233,7 +266,7 @@ header {
 
 .subscribe-form input {
     padding: 18px;
-    width: 650px;
+    min-width: 650px;
     font-family: 'Lato', sans-serif;
     border: 0;
     outline: none;
