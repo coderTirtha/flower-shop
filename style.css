@@ -194,3 +194,51 @@ header {
 .ad-banner .ad-image img {
     width: 250px;
 }
+
+.display-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 120px;
+    gap: 20px;
+}
+
+.display-images img {
+    max-width: 250px;
+}
+
+.contact {
+    background: url('./flower-asset/rectangle9.png');
+    background-repeat: no-repeat;
+    margin: 0 120px 120px 120px;
+    border-radius: 8px;
+}
+
+.contact-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 150px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 15px;
+}
+
+.subscribe-form input {
+    padding: 18px;
+    width: 650px;
+    font-family: 'Lato', sans-serif;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+}
+
+footer {
+    background: #111010;
+}
